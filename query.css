@@ -1,0 +1,102 @@
+.moon{
+height: 400px;
+width: 800px;
+}
+.sub{
+display: flex;
+font-size: 10px;
+max-width: 300px;
+gap: 8px;
+background-color: rgb(21, 21, 106);
+color: azure;
+border: 2px solid red;
+border-radius: 10px;
+box-sizing: border-box;
+justify-content: center;
+}
+.hello1{
+width: 150px;
+height: 130px;
+
+}
+.image{
+display: flex;
+flex-wrap: wrap;
+}
+.holo{
+border: 3px solid red;
+width: 293px;
+background-color: aquamarine;
+margin-top: 2px;
+
+}
+.holoimg{
+width: 288px;
+box-shadow: 6px 6px 10px red;
+}
+
+
+
+.finish{
+display: flex;
+
+margin-left: 4px;
+margin-top: 3px;
+}
+.two{
+margin-left: 7px;
+border: 2px solid red;
+background-color: rgb(41, 129, 129);
+}
+.one{
+border: 2px solid red;
+background-color: rgb(42, 42, 188);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px){
+    .moon{
+    background-color: rgb(15, 16, 13);
+    
+    
+    }
+    }
+@media screen and (max-width: 800px){
+.moon{
+background-color: chartreuse;
+
+
+}
+}
+@media screen and  (max-width: 400px) {
+    .moon {
+   background-color: aqua;
+   
+   
+    }   
+}
+
